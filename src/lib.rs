@@ -10,9 +10,10 @@ use std::collections::HashSet;
 use std::future::Future;
 use std::pin::Pin;
 
-pub mod drawing;
-pub mod exec;
+pub mod storage;
 
+mod drawing;
+mod exec;
 mod camera;
 mod models;
 mod shapes;
